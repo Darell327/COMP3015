@@ -1,107 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adopte un Amigo</title>
+    <title>Auto Splash</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
-</head>
-<body class="bg-dark-subtle">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    <div class="container-lg">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
-        <nav class="navbar navbar-expand-lg  bg-body-secondary">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+<body class="bg-light ">
+    <div class="container-lg ">
+
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./images/logo2.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <a class="navbar-brand" href="#">
+                    <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg"  alt="Bootstrap" width="30" height="24"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
 
-                  <li class="nav-item">
-                    <a class="nav-link" href="#incio">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#acerca">Acerca de</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#ayudar">Cómo Ayudar</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#historias">Historias de Adopción</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contactos">Contactos</a>
-                  </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acerca">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ayudar">Cómo ayudar?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#historias">Historias de adopción</a>
+                        </li>
 
-                </ul>
-              </div>
+                    </ul>
+                </div>
             </div>
         </nav>
-
-        <section id="banner" class="p-5  bg-primary text-white text-center">
-
-            <h1 class="m-5">Dale una segunda oportunidad a un amigo fiel.</h1>
-            <button id="conoceBtn" class="btn btn-warning">Conoce a nuestros perros</button>
-
+        
+        <section id="banner" class="p-5 text-center bg-primary ">
+            <h1 class="text-white fw-bolder animate__animated animate__shakeY">Dale una segunda oportunidad a un amigo fiel.</h1>
+            <button id="conoceBtn" class="btn btn-warning m-3">Observa las fotos de los perritos</button>
         </section>
 
-        <section id="acerca" class="p-5 bg-white text-primary text-center">
-
-          <h2>Acerca de Nosotros</h2>
-          <p class="text-dark fs-5 p-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta id fuga ipsam? Illum nisi minima dicta porro doloremque ipsam sint dignissimos. Similique velit eius dolores, accusamus doloremque repellendus libero exercitationem!
-          </p>
-
+        <section id="acerca" class="p-5 text-center bg-white">
+            <h2 class="text-primary fw-bold">Acercade nosotros</h2>
+            <p class="text-dark mt-4 fw-light fs-3">
+              Somos una entidad que se dedica a rescatar perritos necesitados en la calle. Les damos un hogar de calidad a todos los cachorros y alimentamos, luego buscamos una persona que lo deseé y aseguranos de que esta en buenas manos. 
+            </p>
         </section>
 
-        <section id="perros" class="p-5 bg-body-tertiary text-primary text-center">
-          <h2>Nuestros Perros para Adopción</h2>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col">
-                <img class="p-2 border" src="https://cdn.britannica.com/42/8142-004-4CD3860D/Boxer.jpg?w=400&h=300&c=crop" />
-              </div>
-              <div class="col">
-                <img class="p-2" src="https://cdn.britannica.com/42/8142-004-4CD3860D/Boxer.jpg?w=400&h=300&c=crop" />
-              </div>              
-              <div class="col">
-                <img class="p-2" src="https://cdn.britannica.com/42/8142-004-4CD3860D/Boxer.jpg?w=400&h=300&c=crop" />
-              </div>              
-              <div class="col">
-                <img class="p-2" src="https://cdn.britannica.com/42/8142-004-4CD3860D/Boxer.jpg?w=400&h=300&c=crop" />
-              </div>  
-              <div class="col">
-                <img class="p-2" src="https://cdn.britannica.com/42/8142-004-4CD3860D/Boxer.jpg?w=400&h=300&c=crop" />
-              </div>    
+        <section id="perros" class="p-5 text-center bg-primary-subtle">
+          <div class="row">
+              <h2 class="text-primary fw-bold mb-5">Nuestros perros para adopción</h2>
+                <div class="col-md col-sm-12">
+                    <img class="shadow p-2 bg-white rounded img-fluid border border-primary-subtle" src="https://tse2.mm.bing.net/th?id=OIP.tQ3AIjMf2KhNM-8jSIgfTAHaEK&pid=Api&P=0&h=220" title="Mi Perro" />
+                </div>
+                <div class="col-md col-sm-12">
+                    <img class="shadow p-2 bg-white rounded img-fluid border border-primary-subtle" src="https://tse2.mm.bing.net/th?id=OIP.CjJXuzT1vxUJmPnFXL654gHaGD&pid=Api&P=0&h=220" />
+                </div>  
+                <div class="col-md col-sm-12">
+                    <img class="shadow p-2 bg-white rounded img-fluid border border-primary-subtle" src="https://tse4.mm.bing.net/th?id=OIP.AQjh-AoaxbyIW8MRe2PomgHaFj&pid=Api&P=0&h=220" />
+                </div>
+                <div class="col-md col-sm-12">
+                    <img class="shadow p-2 bg-white rounded img-fluid border border-primary-subtle" src="https://tse4.mm.bing.net/th?id=OIP.jz_QRfxPBvO8_TfM9V3jywHaHa&pid=Api&P=0&h=220" />
+                </div>
+                <div class="col-md col-sm-12">
+                    <img class="shadow p-2 bg-white rounded img-fluid border border-primary-subtle" src="https://tse2.mm.bing.net/th?id=OIP.GhNdk_trq-6o9K4yt0Ph7gHaHa&pid=Api&P=0&h=220" />
+                </div>
             </div>
 
-            <div class="row">
-              <div class="col">
-                <img class="p-2 border" src="https://cdn.britannica.com/42/8142-004-4CD3860D/Boxer.jpg?w=400&h=300&c=crop" />
+            <div class="row mt-3">
+                <div class="col-md col-sm-12">
+                    <img class="shadow p-2 bg-white rounded img-fluid border border-primary-subtle" src="https://tse2.mm.bing.net/th?id=OIP.-Ybq_8bOlL4lSjk_csplgQHaEK&pid=Api&P=0&h=220" />
+                </div>
+                <div class="col-md col-sm-12">
+                    <img class="shadow p-2 bg-white rounded img-fluid border border-primary-subtle" src="https://tse1.mm.bing.net/th?id=OIP.hqW7cbmuEZA35hZI63bCeAHaEo&pid=Api&P=0&h=220" />
+                </div>
+                <div class="col-md col-sm-12">
+                    <img class="shadow p-2 bg-white rounded img-fluid border border-primary-subtle" src="https://tse3.mm.bing.net/th?id=OIP.5_2QV0QzvW6G2V9QOwIg6AHaE7&pid=Api&P=0&h=220" />
+                </div>
+                <div class="col-md col-sm-12">
+                    <img class="shadow p-2 bg-white rounded img-fluid border border-primary-subtle" src="https://tse2.mm.bing.net/th?id=OIP.dvLmHyMNaiydCFMjfKARwAHaEo&pid=Api&P=0&h=220" />
+                </div>
+                <div class="col-md col-sm-12">
+                    <img class="shadow p-2 bg-white rounded img-fluid border border-primary-subtle" src="https://tse4.explicit.bing.net/th?id=OIP.uyQpv3hS4uNIhm5zeZJ1xAHaEo&pid=Api&P=0&h=220" />
+                </div>
+            </div>
+
+        </section>
+
+        <div class="parallax">
+          <section id="ayuda" class="p-5 text-center bg-secondary bg-opacity-50">
+              <h2 class="text-primary fw-bold">Cómo ayudar</h2>
+              <p class="text-white mt-4 fw-light fs-3">
+                En estos ultimos años ha subido el doble de perritos sin hogar. Nos harias un gran favor si puedes llevarte un perrito y sino puedes riega la voz a tus familiares y amigos. Si quieres ayudar aún más puedes donar por ATH movil al siguiente numero: 787 495 6390. 
+                 
+              </p>
+          </section>
+        </div>
+        
+        <section id="ayuda" class="p-5 text-center bg-dark-subtle">
+          <div class="row">
+            <h2 class="text-primary fw-bold mb-4">Historias de adopción.</h2>
+            <div class="col-md col-sm-12 mb-2">
+              <div class="card" >
+                <img src="./images/petlover2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Rocky, un perrito rescatado de un basurero en el area de Ponce.</p>
+                </div>
               </div>
-              <div class="col">
-                <img class="p-2" src="https://cdn.britannica.com/42/8142-004-4CD3860D/Boxer.jpg?w=400&h=300&c=crop" />
-              </div>              
-              <div class="col">
-                <img class="p-2" src="https://cdn.britannica.com/42/8142-004-4CD3860D/Boxer.jpg?w=400&h=300&c=crop" />
-              </div>              
-              <div class="col">
-                <img class="p-2" src="https://cdn.britannica.com/42/8142-004-4CD3860D/Boxer.jpg?w=400&h=300&c=crop" />
-              </div>  
-              <div class="col">
-                <img class="p-2" src="https://cdn.britannica.com/42/8142-004-4CD3860D/Boxer.jpg?w=400&h=300&c=crop" />
-              </div>    
+            </div>
+            <div class="col-md col-sm-12 mb-2">
+              <div class="card" >
+                <img src="./images/petlover2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Aurora, es una perrita encotrada en el pueblo de San Juan.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md col-sm-12 mb-2">
+              <div class="card" >
+                <img src="./images/petlover2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Max, un labrador que su anteriro dueño no lo puede cuidar y nos lo dejo.</p>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
+      </section>
 
+      <footer>
+        <div class="row p-5 bg-dark text-white">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Dirección Física</h3>
+            <p>
+               <br>
+              Urb Las Mareas,
+              Calle Vino<br>
+              
+              Barcloenta, PR 00617
+            </p>
+            <hr>
+            <h3>Dirección Postal</h3>
+            <p>
+              PO BOX 123456<br>
+              Barceloneta, PR 00617
+            </p>
+          </div>
+          <div class="col-2"></div>
+          <div class="col">
+            <ul class="list-group">
+              <li class="list-group-item">
+                Teléfono: 787 495 6390 o 939 501 7453
+              </li>
+              <li class="list-group-item">
+                Email: PatitasAlRescate@gmail.com
+              </li>
+              <li class="list-group-item">
+                <h2>
+                <a href="http://facebook.com" target="_blank" class="btn btn-primary fs-5 tn btn-primary"><i class="bi bi-facebook"></i>  Facebook</a>
+
+                <a href="http://facebook.com" target="_blank" class="btn btn-primary fs-5 tn btn-primary"><i class="bi bi-instagram"></i>  Instagram</a>  
+              
+              </h2>
+              </li>
+            </ul>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </footer>
     </div>
-
 </body>
 </html>
